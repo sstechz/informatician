@@ -55,7 +55,7 @@ export default function BkCards(props) {
         <div className="row justify-content-center">
           <div className="books">
             <h2 className="bk-head">{props.bkhead}</h2>
-            <div className="flex items-center gap-2 md:gap-10">
+            <div className="flex items-center gap-2 md:gap-10" style={{height: '550px'}}>
               <div
                 onClick={() => prevButton.current.click()}
                 className="cursor-pointer"
